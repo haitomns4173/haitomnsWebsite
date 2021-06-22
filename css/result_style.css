@@ -1,0 +1,29 @@
+div.result 
+{
+	background-color: #b9b9b9;
+	padding: 10px;
+	margin: 10px 0px;
+}
+
+div.btn
+{
+	background-color: #b9b9b9;
+	padding: 10px 10px 0px 10px;
+	margin: 10px 0px;
+	align-items: center;
+}
+
+div.btn button
+{
+	font-size: 15px;
+	padding: 12px 20px;
+	cursor: pointer;
+	border: 10px;
+	margin : 0px 0px 10px 20px;
+}
+
+div.btn button:hover
+{
+	background-color: #2a75dd;
+	color: white;
+}

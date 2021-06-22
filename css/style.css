@@ -1,0 +1,110 @@
+body
+{
+	font-family: 'Tw Cen MT';
+}
+
+div.sidenav
+{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #000000;
+	overflow-x: hidden;
+	padding-top: 30px;
+	transition: 0.5s;
+}
+
+div.sidenav a
+{
+	padding: 8px 8px 8px 8px;
+	text-decoration: none;
+	color: #818181;
+	display: block;
+	font-size: 20px;
+	transition: 0.3s;
+}
+
+div.sidenav a:hover
+{
+	color: #f1f1f1;
+}
+
+.sidenav .closebtn
+{
+	position: absolute;
+	top: 0;
+	right: 5px;
+	font-size: 25px;
+	margin-left: 50px;
+}
+
+div.title
+{
+	padding: 10px 10px;
+	background-color: #b9b9b9; 
+}
+
+div.title img
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.adm img
+{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+}
+div.center
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+div.aboutme
+{
+	display: inline-block;
+	margin: 10px 0px 10px 0px;
+	width: 100%;
+	background-color: #b9b9b9; 
+}
+
+
+div.aboutme p
+{
+	padding: 10px;
+	font-size: 20px;
+	float: left;
+}
+
+div.aboutme img
+{
+	display: inline-block;
+	height: 260px;
+	width: 260px;
+	float: right;
+	padding: 15px 10px 15px 10px;
+}
+
+div.big
+{
+	font-size: 30px;
+	padding: 10px;
+	float: left;
+}
+
+footer
+{
+	padding: 20px 10px;
+	overflow: hidden;
+	clear: both;
+	background-color: black;
+	color: white;
+	text-align: center;
+}

@@ -1,0 +1,76 @@
+<html>
+<head>
+	<title>Contact Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css\style.css">
+	<link rel="stylesheet" type="text/css" href="css\contact_style.css">
+	<link rel="shortcut icon" type="image/png" href="img\title_logo.png">
+	<script type="text/javascript">
+		function openNav() 
+		{
+			document.getElementById('mySidenav').style.width = "130px";
+		}
+
+		function closeNav()
+		{
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
+</head>
+<body>
+	
+	<div class = "title">
+	
+		<div id="mySidenav" class="sidenav">
+
+			<a href = "javascript:void(0)" class = "closebtn" onclick="closeNav()">&times;</a>
+
+			<img src="img/nav_img.jpeg" height = "250px" width="130px">
+
+			<b> 
+				<a href='index.html'>Home</a> 
+				<a href="post.html">Posts</a>
+				<a href="resul.html">Result</a>
+				<a href="subject.html">Subject</a>
+				<a href="gallary.html">Gallery</a>
+				<a href="download.html">Downloads</a> 
+				<a href='contact.html'>Contact</a> 
+		</b>
+		</div>
+		<span onclick="openNav()"><img src="img\menu.png" height="40px" width="40px"></span>
+		<img src = "img\logo.png" alt=logo class="center">
+	</div> 
+	
+
+	<div class="cont">
+		<h2 align = "center"> Request for Contact </h2>
+		
+		<form action = "connect.php" method="post">
+		<label for = "name">Name</label>
+		<input type = "text" name = "name" required>
+
+		<label for = "gmail">G-mail</label>
+		<input type = "text" name = "gmail" required>
+
+		<label for = "phone">Contact Number</label>
+		<input type = "text" name = "phone">
+
+		<label for = "subject">Subject</label>
+		<input type = "text" name = "subject" required>
+
+		<div class = "text">
+			<label for = "message">Message</label>
+			<textarea name = "message"></textarea>
+		</div>
+
+		<input type="submit" value="Submit">
+	</form>
+	</div>
+
+	<footer>
+			Copyright &copy; 2020 <b> Haitomns G </b> All Rights Reserved
+	</footer>
+
+</body>
+</html>
+	

@@ -1,0 +1,73 @@
+div.main
+{
+	width: 100%;
+}
+
+div.dw_title
+{
+	background-color: #b9b9b9;
+	padding: 5px 0px 5px 5px;
+	margin: 10px 0px 10px 0px;
+}
+
+div.download
+{
+	float: left;
+	background-color: #b9b9b9;
+	padding: 10px 14px;
+}
+
+div.name
+{
+	text-align: left;
+	padding: 5px 5px;
+	margin-left: 13px; 
+}
+
+div.download button
+{
+	font-size: 15px;
+	padding: 12px 20px;
+	cursor: pointer;
+	border: 10px;
+	margin : 0px 0px 10px 20px;
+}
+
+div.download button:hover
+{
+	background-color: #2a75dd;
+	color: white;
+}
+
+div.download img
+{
+	border: 5px solid black;
+	width: 150px;
+}
+
+div.desc 
+{
+	padding: 10px 5px 10px 5px;
+	text-align: center;
+	width: 130px;
+}
+
+div.desc  
+{
+	padding: 10px 5px 10px 5px;
+	text-align: center;
+	width: 130px;
+}
+
+div.dn
+{
+	background-color: #b9b9b9;
+	float: right;
+	margin: 10px 0px 10px 0px;
+	width: 100%;
+}
+
+div.dwn_steps
+{
+	padding: 10px 0px  0px 10px;
+}

@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<title>Haitomns Gallary</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/image_style.css">
+		<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+		<link rel="shortcut icon" type="image/png" href="img\title_logo.png">
+		<script type="text/javascript" src="js/lightbox-plus-jquery.min.js">
+		</script>
+		<script type="text/javascript">
+		function openNav() 
+		{
+			document.getElementById('mySidenav').style.width = "130px";
+		}
+
+		function closeNav()
+		{
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
+</head>
+<body>
+	
+	<div class = "title">
+	
+		<div id="mySidenav" class="sidenav">
+
+			<a href = "javascript:void(0)" class = "closebtn" onclick="closeNav()">&times;</a>
+
+			<img src="img/nav_img.jpeg" height = "250px" width="130px">
+
+			<b> 
+				<a href='index.html'>Home</a> 
+				<a href="post.html">Posts</a>
+				<a href="resul.html">Result</a>
+				<a href="subject.html">Subject</a>
+				<a href="gallary.html">Gallery</a>
+				<a href="download.html">Downloads</a> 
+				<a href='contact.html'>Contact</a> 
+			</b>
+		</div>
+	
+	</div>
+		<div class = "title">
+			<span onclick="openNav()"><img src="img\menu.png" height="40px" width="40px"></span>
+			<img src = "img\logo.png" alt=logo class="center">
+		</div> 
+		<div class="main">
+		<div class = "gallary">
+			<h2 align="center"> Gallery </h2>
+			<a href="img/pic_1.jpeg" data-lightbox="mygallary" data-title="Image Name : Ant.jpeg"><img src="img/pic_1.jpeg" height= 250px width=130px></a>
+			<a href="img/pic_2.jpeg" data-lightbox="mygallary" data-title="Image Name : Mini Sunflower.jpeg"><img src="img/pic_2.jpeg" height= 250px width=130px></a>
+			<a href="img/pic_3.jpeg" data-lightbox="mygallary"  data-title="Image Name : Blue Smalls.jpeg"><img src="img/pic_3.jpeg" height= 250px width=130px></a>
+			<a href="img/pic_4.jpeg" data-lightbox="mygallary"  data-title="Image Name : Curve Leaves.jpeg"><img src="img/pic_4.jpeg" height= 250px width=130px></a>
+			<a href="img/pic_5.jpeg" data-lightbox="mygallary"  data-title="Image Name : Bee.jpeg"><img src="img/pic_5.jpeg" height= 250px width=130px></a>
+			<a href="img/pic_6.jpeg" data-lightbox="mygallary"  data-title="Image Name : Maize.jpeg"><img src="img/pic_6.jpeg" height= 250px width=130px></a>
+			<a href="img/pic_7.jpeg" data-lightbox="mygallary"  data-title="Image Name : Purple Flw.jpeg"><img src="img/pic_7.jpeg" height= 250px width=130px></a>
+			<a href="img/pic_8.jpeg" data-lightbox="mygallary"  data-title="Image Name : Guava lf.jpeg"><img src="img/pic_8.jpeg" height= 250px width=130px></a>
+			<a href="img/pic_9.jpeg" data-lightbox="mygallary"  data-title="Image Name : Still Branches.jpeg"><img src="img/pic_9.jpeg" height= 250px width=130px></a>
+			<a href="img/pic_10.jpeg" data-lightbox="mygallary"  data-title="Image Name : Silly Lf.jpeg"><img src="img/pic_10.jpeg" height= 250px width=130px></a>
+			<a href="img/pic_11.jpeg" data-lightbox="mygallary"  data-title="Image Name : Blossoum.jpeg"><img src="img/pic_11.jpeg" height= 250px width=130px></a>
+			<a href="img/pic_12.jpeg" data-lightbox="mygallary"  data-title="Image Name : Duck.jpeg"><img src="img/pic_12.jpeg" height= 250px width=130px></a>
+		</div>
+
+		<div class="notice">
+			<h2 align = "center"> Request for Image </h2>
+
+			<form aciton = "connect2.php" method="POST">
+
+				<label for ="name">Name</label>
+				<input type="text" name="name" required>
+
+				<label for ="gmail">Gmail</label>
+				<input type="text" name="gmail" id="gmail">
+
+				<label for ="phone">Phone no.</label>
+				<input type="text" name="phone" required>
+
+				<label for ="image">Image Name</label>
+				<input type="text" name="img" required>
+
+				<input type = "submit" value = "Send Message" onclick="connect2.php">
+			</form>
+		</div>
+	</div>
+	 
+	<footer>
+			Copyright &copy; 2020 <b> Haitomns G </b> All Rights Reserved
+	</footer>
+</body>
+</html>

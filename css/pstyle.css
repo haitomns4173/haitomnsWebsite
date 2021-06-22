@@ -1,0 +1,32 @@
+div.post
+{
+	background-color: #b9b9b9;
+	padding: 10px;
+	margin: 10px 0px;
+	float: left;
+}
+
+div.aoc img
+{
+	float: left;
+	background-color: #b9b9b9;
+	margin: 10px 10px 10px 0px;
+	padding: 5px;
+	height: auto;
+	width: 60%;
+}
+
+div.cre img
+{
+	float: left;
+	background-color: #b9b9b9;
+	margin: 10px 10px 10px 0px;
+	padding: 5px;
+	height: auto;
+	width: 60%;
+}
+
+div.post p
+{
+	padding: 10px;
+}

@@ -1,0 +1,45 @@
+div.maths 
+{
+	background-color: #b9b9b9;
+	padding: 10px;
+	margin: 10px 0px;;
+}
+div.download button
+{
+	font-size: 15px;
+	padding: 12px 20px;
+	cursor: pointer;
+	border: 10px;
+}
+
+div.download button:hover
+{
+	background-color: #2a75dd;
+	color: white;
+}
+
+p
+{
+	padding: 10px 10px;
+}
+
+div.turn
+{
+	background-color: #b9b9b9;
+	padding: 10px 0px;
+	margin: 10px;
+}
+
+div.whatsapp button
+{
+	font-size: 15px;
+	padding: 12px 20px;
+	cursor: pointer;
+	border: 10px;
+}
+
+div.whatsapp button:hover
+{
+	background-color: green;
+	color: white;
+}

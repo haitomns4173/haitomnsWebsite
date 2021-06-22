@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>Haitomns Webpage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css\style.css">
+	<link rel="shortcut icon" type="image/png" href="img\title_logo.png">
+	<script type="text/javascript">
+		function openNav() 
+		{
+			document.getElementById('mySidenav').style.width = "130px";
+		}
+
+		function closeNav()
+		{
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
+</head>
+<body>
+	
+	<div class = "title">
+	
+		<div id="mySidenav" class="sidenav">
+
+			<a href = "javascript:void(0)" class = "closebtn" onclick="closeNav()">&times;</a>
+
+			<img src="img/nav_img.jpeg" height = "250px" width="130px">
+
+			<b> 
+				<a href='index.html'>Home</a> 
+				<a href="post.html">Posts</a>
+				<a href="resul.html">Result</a>
+				<a href="subject.html">Subject</a>
+				<a href="gallary.html">Gallery</a>
+				<a href="download.html">Downloads</a> 
+				<a href='contact.html'>Contact</a> 
+		</b>
+		</div>
+	
+		<span onclick="openNav()"><img src="img\menu.png" height="40px" width="40px"></span>
+		<img src = "img\logo.png" alt=logo class="center">
+
+	</div> 
+
+	<div class="res" style  = "background-color: #b9b9b9; padding: 10px; margin: 10px 0px;">
+	<h2 align="center"> <u> Result of Class 9 (Diploma) </u> </h2>  <br> <br>
+	<iframe frameborder="0" scrolling="no" style="border:0px" src="file/result.pdf" width="100%" height=1000></iframe>
+	</div>
+	<footer>
+			Copyright &copy; 2020 <b> Haitomns G </b> All Rights Reserved
+	</footer>
+</body>
+</html>
